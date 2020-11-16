@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>exercise3</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Jasmine's Bakery</h1>
+    <h2>Welcome to the Jasmine's Bakery website where you will find delicious treats for any special ocassion or even a Monday night because it's already been a long week!</h2>
+    <form action="customerBackend.php" method="post">
+			<fieldset>
+				  <h3>Create an account to make purchases!</h3>
+					Email:
+          <input type="email" name="user" placeholder="name@domain.com" required>
+          <br><br>
+          Password:
+          <input type="password" name="pass" placeholder="Password" required>
+			</fieldset>
+			<fieldset>
+				<h3>Shipping Options:</h3>
+				<label>
+					<input type="radio" value="Free 7 day" name="ship" checked>Free 7 day<br><br>
+					<input type="radio" value="$50.00 over night" name="ship">$50.00 over night<br><br>
+					<input type="radio" value="$5.00 three day" name="ship">$5.00 three day<br><br>
+				</label>
+			</fieldset>
+			<fieldset>
+				<h3>Baked Goods:<h3>
+					<input type="number" value="0" min="0" name="cake" required> Layer Cake - $25<br><br>
+					<input type="number" value="0" min="0" name="cookies" required> 1 Dozen Cookies - $12<br><br>
+					<input type="number" value="0" min="0" name="brownies" required> 1 Dozen Brownies - $15<br><br>
+          <input type="number" value="0" min="0" name="cheesecake" required> Cheesecake - $30<br><br>
+			</fieldset>
+			<fieldset>
+				<input type="submit" value="Submit" name="Submit">
+				<input type="reset" value="Reset" name="Submit">
+			</fieldset>
+		</form>
+  </body>
+</html>

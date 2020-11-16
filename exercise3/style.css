@@ -1,0 +1,23 @@
+h1
+{
+  text-align: center;
+}
+
+h2
+{
+  text-align: center;
+}
+
+body
+{
+  background-image: url("https://www.cakes2pastries.co.za/wp-content/uploads/2017/03/cake-background-007.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+table
+{
+  text-align: center;
+  margin-left: 400px;
+}
